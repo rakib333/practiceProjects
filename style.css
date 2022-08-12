@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+body {
+    background-color: #e7d8d8;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.header-container {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bio {
+    display: flex;
+}
+
+.header-bio img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.header-bio .info {
+    margin-top: 40px;
+}
+
+.header-contact {
+    margin-top: 40px;
+}
+
+.header-contact a {
+    display: block;
+    transition: all .5s ease;
+}
+
+.header-contact a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+.header-container hr {
+    height: 4px;
+    background-color: gray;
+    margin-top: 30px;
+}
+
+/* main start  */
+
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.personal-info-part {
+    display: flex;
+    margin: 40px 0px;
+}
+
+.personal-info-part h3 {
+    margin-right: 50px;
+}
+
+.personal-info-part hr {
+    height: 2px;
+    background-color: gray;
+}
+
+#experience-part {
+    margin-bottom: 40px;
+}
+
+#experience-part hr {
+    margin-top: 40px;
+}
+
+.experience-content {
+    display: flex;
+}
+
+.experience-content h3 {
+    color: blue;
+    margin-right: 130px;
+    margin-top: 30px;
+}
+
+.details-info h2 {
+    color: hwb(239 9% 10%);
+    margin: 20px 0px;
+}
